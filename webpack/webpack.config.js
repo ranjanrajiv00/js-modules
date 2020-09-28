@@ -86,18 +86,6 @@ module.exports = {
                     test: /[\\/]node_modules[\\/]/,
                     priority: 1
                 },
-                theme: {
-                    name: 'theme',
-                    test: /\scss$/,
-                    chunks: 'all',
-                    enforce: true
-                },
-                style: {
-                    name: 'style',
-                    test: /\css$/,
-                    chunks: 'all',
-                    enforce: true
-                },
             }
         }
     },
